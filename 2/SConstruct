@@ -1,0 +1,7 @@
+
+env = Environment(FOO = 'foo', BAR = 'bar')
+dict = env.Dictionary()
+
+
+for key in ['OBJSUFFIX', 'LIBSUFFIX', 'PROGSUFFIX']:
+	print("key = %s, value = %s" % (key, dict[key]))

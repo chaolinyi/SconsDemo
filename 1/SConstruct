@@ -1,0 +1,3 @@
+env = Environment(CC = 'cl', CCFLAGS = '-O2')
+
+env.Program('a.exe', ['main.cpp', 'hello.cpp'])
